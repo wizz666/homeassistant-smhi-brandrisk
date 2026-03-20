@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SMHI Fire Risk",
+        "description": "Add fire risk data from SMHI/MSB for a location in Sweden.",
+        "data": {
+          "name": "Name",
+          "latitude": "Latitude",
+          "longitude": "Longitude"
+        }
+      }
+    },
+    "error": {
+      "invalid_latitude": "Latitude must be between 55° and 70° (Sweden).",
+      "invalid_longitude": "Longitude must be between 10° and 25° (Sweden)."
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    }
+  }
+}
