@@ -1,0 +1,12 @@
+{
+  "domain": "smhi_brandrisk",
+  "name": "SMHI Brandrisk",
+  "version": "1.1.0",
+  "documentation": "https://github.com/wizz666/homeassistant-smhi-brandrisk#readme",
+  "issue_tracker": "https://github.com/wizz666/homeassistant-smhi-brandrisk/issues",
+  "dependencies": [],
+  "codeowners": ["@wizz666"],
+  "requirements": [],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}

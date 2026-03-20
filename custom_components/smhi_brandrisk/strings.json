@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SMHI Brandrisk",
+        "description": "Lägg till brandriskdata från SMHI/MSB för en koordinat i Sverige.",
+        "data": {
+          "name": "Namn",
+          "latitude": "Latitud",
+          "longitude": "Longitud"
+        }
+      }
+    },
+    "error": {
+      "invalid_latitude": "Latitud måste vara mellan 55° och 70° (Sverige).",
+      "invalid_longitude": "Longitud måste vara mellan 10° och 25° (Sverige)."
+    },
+    "abort": {
+      "already_configured": "Den här platsen är redan konfigurerad."
+    }
+  }
+}
